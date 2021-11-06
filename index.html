@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC sneakers</title>
-
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Шапка сайта -->
 
-      <header>
-            <nav>
-                <ul>
+        <header>
+            <nav class="container"> 
+                <ul class="header__menu flex-start-between">
                     <li><a href="/index.html">Главная</a></li>
                     <li><a href="#About-me">О бренде</a></li>
                     <li><a href="#Skills">Работы</a></li>
@@ -21,56 +22,57 @@
                     <li><a href="#Contacts">Контакты</a></li>
                 </ul>
             </nav>
-            <hr>
-                <h1>"ABC" Brand</h1>
-                <p>Кожгалантерейная фабрика из Украины</p>
-                <img src="./img/logoABC.png" alt="Логотип компании" width="945">
         </header>
 
+        <section class="section-hero">
+            <div class="container">
+                <div class="flex-center-between section-hero-head">
+                    <h1 class="logo-hero">"ABC" Brand</h1>
+                <p class="title-hero">Кожгалантерейная фабрика из Украины</p>
+                </div>
+                <img class="img-hero" src="./img/logoABC.png" alt="Логотип компании" width="945">
+            </div>
+        </section>
         <main>
     
     <!-- Секция о бренде -->    
 
-            <section>
-            <h2 id="About-me">О бренде</h2>
-            <h3>«АBC» ИДЕАЛЬНАЯ ОБУВЬ</h3>
-            <p>Философия бренда! <br>
-            Аббревиатура магазина с брендом состоит из инициалов двух братьев (your_riche_club). Станислав и Владислав (Юриевичи) -
-            основатели нового бренда в г. Запорожье «АBС».
-            «ABC» как начало Английского алфавита, так и начало для каждого клиента поменять свой взгляд на обувную индустрию.
-            Наша команда объеденяет весь мир!
-            Это не только качество но и любовь к каждому своему изделию.
-            Наша цель - дать людям больше чем они ожидают.
-            Наша позиция не разбогатеть. Наш успех не в деньгах!
-            Наш успех - быть полезными для общества делая их жизнь комфортнее. <br>
-             Успех - делать людей счастливее.</p>
+            <section class="about" id="About-me">
+                <div class="container">
+                    <h3 class="about-title">О бренде</h3>
+                    <h2 class="about-subtitle">«АBC» ИДЕАЛЬНАЯ ОБУВЬ</h2>
+                    <div class="about-text">
+                        <p>Философия бренда!</p>
+                        <p>Аббревиатура магазина с брендом состоит из инициалов двух братьев (your_riche_club). Станислав и Владислав (Юриевичи) -
+                        основатели нового бренда в г. Запорожье «АBС».
+                        «ABC» как начало Английского алфавита, так и начало для каждого клиента поменять свой взгляд на обувную индустрию.
+                        Наша команда объеденяет весь мир!
+                        Это не только качество но и любовь к каждому своему изделию.
+                        Наша цель - дать людям больше чем они ожидают.
+                        Наша позиция не разбогатеть. Наш успех не в деньгах!
+                        Наш успех - быть полезными для общества делая их жизнь комфортнее.
+                        Успех - делать людей счастливее.</p>
+                    </div>
+                </div>
             </section>
 
-        <!-- Секция с работами -->
+    <!-- Секция с работами -->
 
-            <section>
-            <h2 id="Skills">Работы</h2>
-            <h3>Мужские модели</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-
+            <section class="container works-container text-center">
+                <h2 class="works-title" id="Skills">Работы</h2>
+                <h3 class="works-subtitle">Мужские модели</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h3 class="works-subtitle">Женские модели</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>          
             </section>
 
-            <section>
-            <h3>Женские модели</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>          
-            </section>
-
-        <!-- Секция с наработками -->
+    <!-- Секция с наработками -->
 
             <section>
             <h2 id="Portfolio">Разработки</h2>
@@ -86,7 +88,7 @@
             </section>
         </main>
 
-        <!-- Контактная секция -->
+    <!-- Контактная секция -->
 
         <footer>
             <h2 id="Contacts">Контакты</h2>

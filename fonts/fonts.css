@@ -1,0 +1,15 @@
+/* latin-ext */
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Gilroy-Medium.ttf);
+}
