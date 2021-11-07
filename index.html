@@ -8,106 +8,111 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <!-- Шапка сайта -->
+    <div class="general-container">
+        <!-- Шапка сайта -->
 
-        <header>
-            <nav class="container"> 
-                <ul class="header__menu flex-start-between">
-                    <li><a href="/index.html">Главная</a></li>
-                    <li><a href="#About-me">О бренде</a></li>
-                    <li><a href="#Skills">Работы</a></li>
-                    <li><a href="#Portfolio">Разработки</a></li>
-                    <li><a href="#Contacts">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
+            <header>
+                <nav class="container"> 
+                    <ul class="header__menu flex-start-between">
+                        <li><a href="/index.html">Главная</a></li>
+                        <li><a href="#About-me">О бренде</a></li>
+                        <li><a href="#Skills">Работы</a></li>
+                        <li><a href="#Portfolio">Разработки</a></li>
+                        <li><a href="#Contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <section class="section-hero">
-            <div class="container">
-                <div class="flex-center-between section-hero-head">
-                    <h1 class="logo-hero">"ABC" Brand</h1>
-                <p class="title-hero">Кожгалантерейная фабрика из Украины</p>
-                </div>
-                <img class="img-hero" src="./img/logoABC.png" alt="Логотип компании" width="945">
-            </div>
-        </section>
-        <main>
-    
-    <!-- Секция о бренде -->    
-
-            <section class="about" id="About-me">
+            <section class="section-hero">
                 <div class="container">
-                    <h3 class="about-title">О бренде</h3>
-                    <h2 class="about-subtitle">«АBC» ИДЕАЛЬНАЯ ОБУВЬ</h2>
-                    <div class="about-text">
-                        <p>Философия бренда!</p>
-                        <p>Аббревиатура магазина с брендом состоит из инициалов двух братьев (your_riche_club). Станислав и Владислав (Юриевичи) -
-                        основатели нового бренда в г. Запорожье «АBС».
-                        «ABC» как начало Английского алфавита, так и начало для каждого клиента поменять свой взгляд на обувную индустрию.
-                        Наша команда объеденяет весь мир!
-                        Это не только качество но и любовь к каждому своему изделию.
-                        Наша цель - дать людям больше чем они ожидают.
-                        Наша позиция не разбогатеть. Наш успех не в деньгах!
-                        Наш успех - быть полезными для общества делая их жизнь комфортнее.
-                        Успех - делать людей счастливее.</p>
+                    <div class="flex-center-between section-hero-head">
+                        <h1 class="logo-hero">"ABC" Brand</h1>
+                    <p class="title-hero">Кожгалантерейная фабрика из Украины</p>
                     </div>
+                    <img class="img-hero" src="./img/logoABC.png" alt="Логотип компании" width="945">
                 </div>
             </section>
+            <main>
+        
+        <!-- Секция о бренде -->    
 
-    <!-- Секция с работами -->
+                <section class="about" id="About-me">
+                    <div class="container">
+                        <h3 class="about-title">О бренде</h3>
+                        <h2 class="about-subtitle">«АBC» ИДЕАЛЬНАЯ ОБУВЬ</h2>
+                        <div class="about-text">
+                            <p>Философия бренда!</p>
+                            <p>Аббревиатура магазина с брендом состоит из инициалов двух братьев (your_riche_club). Станислав и Владислав (Юриевичи) -
+                            основатели нового бренда в г. Запорожье «АBС».
+                            «ABC» как начало Английского алфавита, так и начало для каждого клиента поменять свой взгляд на обувную индустрию.
+                            Наша команда объеденяет весь мир!
+                            Это не только качество но и любовь к каждому своему изделию.
+                            Наша цель - дать людям больше чем они ожидают.
+                            Наша позиция не разбогатеть. Наш успех не в деньгах!
+                            Наш успех - быть полезными для общества делая их жизнь комфортнее.
+                            Успех - делать людей счастливее.</p>
+                        </div>
+                    </div>
+                </section>
 
-            <section class="container works-container text-center">
-                <h2 class="works-title" id="Skills">Работы</h2>
-                <h3 class="works-subtitle">Мужские модели</h3>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <h3 class="works-subtitle">Женские модели</h3>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>          
-            </section>
+        <!-- Секция с работами -->
 
-    <!-- Секция с наработками -->
+                <section class="container works-container text-center">
+                    <h2 class="works-title" id="Skills">Работы</h2>
+                    <h3 class="works-subtitle">Мужские модели</h3>
+                    <ul class="works-list flex-start-between mb-5">
+                        <li><img src="./img/mans_models1.JPG" alt=""></li>
+                        <li><img src="./img/mans_models2.JPG" alt=""></li>
+                    </ul>
+                    <h3 class="works-subtitle">Женские модели</h3>
+                    <ul class="works-list flex-start-between mb-5">
+                        <li><img src="./img/womans_models1.JPG" alt=""></li>
+                        <li><img src="./img/womans_models2.JPG" alt=""></li>
+                    </ul>          
+                </section>
 
-            <section>
-            <h2 id="Portfolio">Разработки</h2>
-            <ul>
-                <Li></Li>
-                <li></li>
-            </ul>
+        <!-- Секция с наработками -->
 
-            <ul>
-                <Li></Li>
-                <li></li>
-            </ul>
-            </section>
-        </main>
+                <section class="work-serial text-center">
+                    <div class="container">
+                        <h2 class="works-serial-title" id="Portfolio">Разработки</h2>
+                        <ul class="works-serial-list flex-stretch-between mb-5">
+                            <Li><img src="./img/development1.JPG" alt=""></Li>
+                            <li><img src="./img/development2.JPG" alt=""></li>
+                        </ul>
 
-    <!-- Контактная секция -->
+                        <ul class="works-serial-list flex-stretch-between mb-5">
+                            <Li><img src="./img/development3.JPG" alt=""></Li>
+                            <li><img src="./img/development4.JPG" alt=""></li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
 
-        <footer>
-            <h2 id="Contacts">Контакты</h2>
-            <p>Наши соцсети и физический адрес</p>
-            <address>
-                <a href="tel:+380996071413">Контактный номер: 099-607-14-13</a><br>
-                <a href="mailto:arboreastan@gmail.com">Наше мыло</a>
+        <!-- Контактная секция -->
 
-                <ul>
-                    <li><a href="0">Instagram</a></li>
-                    <li><a href="0">Viber</a></li>
-                    <li><a href="0">Telegram</a></li>
-                    <li><a href="0">Linkedin</a></li>
-                </ul>
-            </address>
-            <p>Все новости на порталах, подписывайтесь и будьте в курсе!</p>
+            <footer class="footer">
+                <div class="container text-center">
+                    <h2 class="footer-title" id="Contacts">Контакты</h2>
+                    <p class="footer-text">Наши соцсети и физический адрес</p>
+                    <address class="mb-5">
+                        <a class="footer-link" href="tel:+380996071413">Контактный номер: 099-607-14-13</a><br>
+                        <a class="footer-link" href="mailto:arboreastan@gmail.com">Наше мыло</a>
 
-        </footer> 
+                        <ul class="footer-socials flex-center-between">
+                            <li><a href="0"><img src="./img/footer_logo_viber.svg" alt=""></a></li>
+                            <li><a href="0"><img src="./img/footer_logo_instagram.svg" alt=""></a></li>
+                            <li><a href="0"><img src="./img/footer_logo_telegram.svg" alt=""></a></li>
+                        </ul>
+                    </address>
+                    <p class="footer-text">Все новости на порталах, подписывайтесь и будьте в курсе!</p>
+                </div>
 
+            </footer> 
+    </div>
         
 </body>
 </html>
